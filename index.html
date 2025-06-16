@@ -1,184 +1,185 @@
 html
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="ar">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>موقع شامل وكامل</title>
-<style>
-  body {
-    font-family: 'Tahoma', sans-serif;
-    margin: 0; padding: 0;
-    background: #f0f2f5;
-    color: #222;
-  }
-  header {
-    background: #1a73e8;
-    color: white;
-    padding: 15px 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  header h1 {
-    margin: 0;
-    font-weight: 900;
-    letter-spacing: 2px;
-  }
-  nav a {
-    color: white;
-    text-decoration: none;
-    margin-left: 25px;
-    font-weight: 600;
-    font-size: 1.1em;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-  .hero {
-    background: url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1400&q=80') no-repeat center/cover;
-    height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;font-size: 3em;
-    text-shadow: 3px 3px 8px #000;
-    font-weight: 700;
-  }
-  section {
-    max-width: 1100px;
-    margin: 50px auto;
-    padding: 0 20px;
-  }
-  h2 {
-    text-align: center;
-    color: #1a73e8;
-    margin-bottom: 30px;
-  }
-  .about p {
-    font-size: 1.2em;
-    line-height: 1.7;
-    max-width: 900px;
-    margin: auto;
-  }
-  .services {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .service {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 15px rgba(26,115,232,0.3);
-    padding: 25px;
-    width: 300px;
-    text-align: center;
-  }
-  .service h3 {
-    margin-top: 0;
-    color: #1a73e8;
-  }
-  .team {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 25px;
-  }
-  .member {
-    width: 220px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 12px rgba(26,115,232,0.25);
-    overflow: hidden;
-    text-align: center;
-  }
-  .member img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-  }
-  .member h4 {
-    margin: 15px 0 5px;
-    color: #1a73e8;
-  }
-  .member p {
-    margin: 0 15px 15px;
-    font-size: 1em;
-    color: #555;
-  }
-  .blog-posts {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    gap: 20px;}
-  .post {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 12px rgba(26,115,232,0.2);
-    overflow: hidden;
-  }
-  .post img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-  }
-  .post-content {
-    padding: 15px;
-  }
-  .post-content h4 {
-    margin: 0 0 10px;
-    color: #1a73e8;
-  }
-  .post-content p {
-    color: #444;
-  }
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    justify-content: center;
-  }
-  .gallery img {
-    border-radius: 12px;
-    width: 30%;
-    max-width: 300px;
-    box-shadow: 0 0 10px rgba(26,115,232,0.2);
-  }
-  form {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 25px;
-    border-radius: 12px;
-    box-shadow: 0 0 15px rgba(26,115,232,0.3);
-  }
-  form input, form textarea {
-    width: 100%;
-    margin: 10px 0;
-    padding: 14px;
-    border-radius: 8px;
-    border: 1px solid #bbb;
-    font-size: 1.1em;
-    font-family: inherit;
-  }
-  form button {
-    background-color: #1a73e8;
-    color: white;
-    border: none;
-    padding: 15px;
-    font-size: 1.3em;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 100%;
-    margin-top: 10px;
-  }
-  form button:hover {
-    background-color: #155ab6;
-  }
-  footer {
-    background: #1a73e8;
-    color: white;
-    text-align: center;
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>موقعي المليان بالمحتوى</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      line-height: 1.6;
+      background: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      direction: rtl;
+      color: #333;
+    }
+    header, footer {
+      background: #004080;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background: #0070c0;
+      margin: 0;
+    }
+    nav ul li {
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      background: white;
+      padding: 20px;
+      margin-top: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+    button {
+      background: #0070c0;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    button:hover {
+      background: #005080;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 15px 0;
+    }
+    table, th, td {
+      border: 1px solid #004080;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+    form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: vertical;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>مرحباً في موقعي</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#about">حول الموقع</a></li>
+      <li><a href="#gallery">معرض الصور</a></li>
+      <li><a href="#table">جدول معلومات</a></li>
+      <li><a href="#contact">تواصل معنا</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>حول الموقع</h2>
+      <p>هذا الموقع يحتوي على محتوى متنوع ومليء بالمعلومات المفيدة والصور الجميلة.</p>
+      <p>يمكنك استكشاف أقسام الموقع للتعرف أكثر على ما نقدمه.</p>
+      <button onclick="alert('شكراً لزيارتك!')">اضغط هنا</button>
+    </section>
+
+    <section id="gallery">
+      <h2>معرض الصور</h2>
+      <img src="https://picsum.photos/id/1015/600/300" alt="صورة طبيعة" />
+      <img src="https://picsum.photos/id/1016/600/300" alt="صورة جبل" />
+      <img src="https://picsum.photos/id/1018/600/300" alt="صورة نهر" />
+    </section>
+
+    <section id="table">
+      <h2>جدول معلومات</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>الاسم</th>
+            <th>العمر</th>
+            <th>الوظيفة</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>محمد</td>
+            <td>30</td>
+            <td>مهندس</td>
+          </tr>
+          <tr>
+            <td>ليلى</td>
+            <td>25</td>
+            <td>طبيبة</td>
+          </tr>
+          <tr>
+            <td>سامي</td>
+            <td>28</td>
+            <td>مصمم</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="video">
+      <h2>فيديو تعريفي</h2>
+      <video width="100%" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+        المتصفح لا يدعم تشغيل الفيديو.
+      </video>
+    </section>
+
+    <section id="contact">
+      <h2>تواصل معنا</h2>
+      <form>
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" placeholder="ادخل اسمك" required />
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" placeholder="ادخل بريدك الإلكتروني" required />
+
+        <label for="message">رسالتك:</label>
+        <textarea id="message" name="message" rows="5" placeholder="اكتب رسالتك هنا..." required></textarea>
+
+        <button type="submit">إرسال</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>حقوق النشر © 2025 جميع الحقوق محفوظة</p>
+  </footer>
+</body>
+</html>
